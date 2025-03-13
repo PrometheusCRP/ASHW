@@ -1,35 +1,31 @@
-/* Основні стилі */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #1e3c72, #2a5298, #4a8bc2); /* Морський градієнт */
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #4a8bc2);
     color: #fff;
     margin: 0;
     padding: 20px;
     min-height: 100vh;
-    overflow-x: hidden; /* Щоб уникнути горизонтального скролу */
+    overflow-x: hidden;
 }
 
-/* Контейнер для контенту */
 .content {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.1); /* Прозорий фон для ефекту */
-    backdrop-filter: blur(5px); /* Ефект скла (підтримується в сучасних браузерах) */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
     border-radius: 15px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-    animation: float 3s infinite ease-in-out; /* Анімація плавного руху */
+    animation: float 3s infinite ease-in-out;
 }
 
-/* Анімація для контейнера */
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
 }
 
-/* Заголовки */
 h1 {
-    color: #ffd700; /* Золотий колір для ефекту старовинного скарбу */
+    color: #ffd700;
     font-size: 40px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -37,32 +33,30 @@ h1 {
 }
 
 h2 {
-    color: #00ced1; /* Темно-голубий, як море */
+    color: #00ced1;
     font-size: 28px;
     margin-top: 20px;
 }
 
 h3 {
-    color: #f0e68c; /* Світло-жовтий для навігації */
+    color: #f0e68c;
     font-size: 20px;
     margin-top: 15px;
 }
 
-/* Посилання */
 a {
-    color: #ff4500; /* Яскраво-оранжевий для акценту */
+    color: #ff4500;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ff8c00; /* Зміна кольору при наведенні */
+    color: #ff8c00;
     text-decoration: underline;
     text-shadow: 0 0 5px #ff8c00;
 }
 
-/* Список контактів */
 ul {
     list-style-type: none;
     padding: 0;
@@ -77,16 +71,15 @@ ul li {
 }
 
 ul li:hover {
-    transform: scale(1.05); /* Легке збільшення при наведенні */
+    transform: scale(1.05);
 }
 
-/* Кнопки */
 button {
-    background: linear-gradient(45deg, #00b7eb, #9b59b6); /* Градієнт для кнопок */
+    background: linear-gradient(45deg, #00b7eb, #9b59b6);
     color: white;
     padding: 12px 25px;
     border: none;
-    border-radius: 25px; /* Більш округлі кнопки */
+    border-radius: 25px;
     cursor: pointer;
     font-size: 16px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -96,12 +89,12 @@ button {
 
 button:hover {
     background: linear-gradient(45deg, #00d4ff, #8e44ad);
-    transform: translateY(-3px); /* Підняття при наведенні */
+    transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 button:active {
-    transform: translateY(1px); /* Ефект натискання */
+    transform: translateY(1px);
 }
 
 button a {
@@ -109,7 +102,6 @@ button a {
     text-decoration: none;
 }
 
-/* Зображення */
 img {
     max-width: 100%;
     height: auto;
@@ -119,10 +111,9 @@ img {
 }
 
 img:hover {
-    transform: scale(1.05); /* Збільшення при наведенні */
+    transform: scale(1.05);
 }
 
-/* Горизонтальна лінія */
 hr {
     border: 0;
     height: 1px;
